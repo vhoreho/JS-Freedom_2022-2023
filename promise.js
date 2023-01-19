@@ -34,6 +34,7 @@ let availableSlotsForDog = new Promise((resolve, reject) => {
 });
 
 addNewPets("Tuzik");
+addNewPets("Kopa");
 
 addNewPets("Gavrik")
   .then((value) => console.log("In hostel now ", value.join(", ")))
