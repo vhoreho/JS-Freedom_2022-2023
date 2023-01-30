@@ -1,0 +1,21 @@
+$main-color: rgb(144, 249, 255);
+
+body {
+    min-height: 100vh;
+    background: $main-color;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background: lightcoral;
+    height: 10vh;
+}
+
+main {
+    flex: 1 auto;
+}
+
+footer {
+    background: lightseagreen;
+    height: 10vh;
+}
